@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/images/hero.png";
 import car from "../assets/images/herocar.png";
+import car2 from"../assets/images/herocar-mobile.png"
 
 export default function Hero() {
   const containerStyle = {

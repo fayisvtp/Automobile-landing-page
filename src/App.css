@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .custom-calendar {
     background-color:white;
     color: #000000; 
@@ -10,3 +11,81 @@ body{
  .benifts_icon_heading{
     font-size: 30px;
  }
+
+ /* service section
+ ******************************************** */
+
+.service_btn:hover{
+   color: #FFA500;
+}
+
+.hover-section {
+    position: relative;
+    transition: border 0.3s ease; 
+  }
+  
+  .hover-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #FFA500;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-section:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+ 
+.heading h1 {
+    position: relative;
+  }
+  
+  .heading h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #fff; 
+  }
+
+.icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); 
+  }
+   /* tags section
+ ******************************************** */
+  .tag_heading{
+   font-size: 120px;
+   font-weight: 400;
+  }
+
+.border {
+    border: 2px solid #000; 
+  }
+  
+ 
+
+@media only screen and (max-width: 600px) {
+  /* Hide the car image on mobileS screens */
+  .car_image {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Hide the car image on mobileM screens */
+  .car_image {
+    display: none;
+  }
+}

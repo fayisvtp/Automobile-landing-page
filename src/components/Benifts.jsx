@@ -10,10 +10,10 @@ export default function Benefits() {
       style={{ background: "#1E1E1E" }}
     >
       <div className="col-8 image p-4 d-flex align-items-center justify-content-cneter ">
-        <img src={car} alt="car" />
+        <img src={car} alt="car"  className="w-full h-screen"/>
       </div>
       <div className="col-4 ">
-        <div className="heading col-12 p-3 mt-3 text-center text-white">
+        <div className="heading col-12 p-3 mt-3 text-left text-white">
           <h1 style={{ fontSize: "45px" }}>
             Choose Us for Unmatched <br /> Auto and Bike Care
           </h1>
