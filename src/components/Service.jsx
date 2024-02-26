@@ -41,9 +41,9 @@ export default function Service() {
         <div className="servce_section p-5 col-12 d-flex">
   <div className="col-7 d-flex row underline">
     {services.map((service, index) => (
-      <div key={index} className="m-auto col-4 hover-section text-white">
+      <div key={index} className=" col-4 hover-section text-white">
         <img src={service.icon} alt={service.title} className="p-3 icon" />
-        <h1 className="m-2">{service.title}</h1>
+        <h3 className="">{service.title}</h3>
         <div className="button_area">
           <button className="service_btn d-flex align-items-center m-2">
             <img
